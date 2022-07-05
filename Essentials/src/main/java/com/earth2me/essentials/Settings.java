@@ -75,7 +75,7 @@ public class Settings implements net.ess3.api.ISettings {
     private boolean debug = false;
     private boolean configDebug = false;
     // #easteregg
-    private boolean economyDisabled = false;
+    private boolean economyDisabled = true;
     private BigDecimal maxMoney = DEFAULT_MAX_MONEY;
     private BigDecimal minMoney = DEFAULT_MIN_MONEY;
     private boolean economyLog = false;
