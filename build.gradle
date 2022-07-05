@@ -12,3 +12,12 @@ project.ext {
 
     FULL_VERSION = "${version}".replace("-SNAPSHOT", "-dev+${GIT_DEPTH}-${GIT_COMMIT}")
 }
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    	dependencies {
+	        implementation 'com.github.DexterLandry15:Essentials:Tag'
+	}
