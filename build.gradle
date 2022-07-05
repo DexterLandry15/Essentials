@@ -20,3 +20,6 @@ project.ext {
     dependencies {
 	        implementation 'com.github.DexterLandry15:Essentials:idk-SNAPSHOT'
 	}
+    	dependencies {
+	        implementation 'com.github.DexterLandry15:Essentials:Tag'
+	}
